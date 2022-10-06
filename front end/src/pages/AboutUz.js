@@ -15,18 +15,37 @@ function About() {
             <img src="https://i.imgur.com/FV8FVeW.jpg"></img>
             <p>Drew Anello is a musician turned dev based in NYC.</p>
             <a className="konnectwith" href="https://www.linkedin.com/in/drew-anello/">Konnect with Drew</a>
+            <br>
+            </br>
+            <br>
+            </br>
+            <br>
+            </br>
         </div>
         <div className="peter">
             <h1>Peter Lam</h1>
             <img src="https://i.imgur.com/Z2sVB9m.png"></img>
             <p>filler text change</p>
             <a className="konnectwith" href="https://www.linkedin.com/in/plam1216/">Konnect with Peter</a>
+            <br>
+            </br>
+            <br>
+            </br>
+            <br>
+            </br>
+            
         </div>
         <div className="james">
             <h1>James Ocaña</h1>
             <img src="https://i.imgur.com/cnU0ThQ.jpg"></img>
             <p>filler text</p>
             <a className="konnectwith" href="https://www.linkedin.com/in/james-ocana/">Konnect with James</a>
+            <br>
+            </br>
+            <br>
+            </br>
+            <br>
+            </br>
         </div>
         <div className="kyler">
             <h1>Kyler Marquis</h1>
