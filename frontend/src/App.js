@@ -14,7 +14,7 @@ function App () {
   const [user, setUser] = useState(null)
 
   // get all user data from MongoDB
-  const URL = 'https://konnectuz-production.up.railway.app//user/'
+  const URL = 'https://konnectuz-production.up.railway.app/user/'
   const getUser = async () => {
     const response = await fetch(URL)
     const data = await response.json()
