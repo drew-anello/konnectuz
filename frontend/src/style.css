@@ -8,6 +8,10 @@
 html,
 body {
     height: 100%;
+    background-image: url('https://imgur.com/r5qpise.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
 }
 
 nav {
@@ -58,7 +62,11 @@ li {
 #sign-up-content {
     text-align: center;
     font-family: var(--main-font);
-    margin-top: 100px;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 75px;
+    padding: 20px;
 }
 
 .submit-btn {
@@ -69,7 +77,11 @@ li {
 #login-content {
     text-align: center;
     font-family: var(--main-font);
-    margin-top: 100px;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
 }
 
 .form-label {
@@ -84,6 +96,7 @@ li {
 
 .ind-post {
     border: 3px solid rgba(73, 69, 69);
+    border-radius: 1%;
     margin: 20px;
 }
 
@@ -91,9 +104,10 @@ li {
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: var(--aqua-background-color);
     height: 50px;
     padding: 10px;
+    /* padding-right: 50px; */
+    /* border-radius: 1.5%; */
 }
 
 .user-info>h5 {
@@ -101,14 +115,14 @@ li {
 }
 
 .pfp {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
 .post-content {
     text-align: center;
-
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: white;
@@ -128,6 +142,7 @@ li {
     margin-top: 20px;
     border: 2px solid rgba(73, 69, 69, 0.3);
     padding: 20px;
+    background-color: white;
 }
 
 .create-post-labels {
@@ -140,30 +155,42 @@ li {
 }
 
 #comment-header {
-    background-color: rgba(73, 69, 69, 0.1);
+    background-color: var(--pink-background-color);
     border-top: 2px solid black;
     margin: 0;
 }
 
 #comment-header>a:hover {
+    transform: scale(1);
+    opacity: 1;
+    filter: blur(0);
+    text-decoration: none;
     color: var(--aqua-background-color);
 }
 
 .comment-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
+    background-color: white;
+    border-top: 2px solid black;
+    padding: 10px 20px 10px 20px;
 }
 
 #comments {
     text-align: center;
 }
 
+.comment {
+    max-width: 50%;
+}
+
 .logged-in-pfp {
-    height: 50px;
-    max-width: 50px;
+    height: 45px;
+    max-width: 45px;
     border-radius: 50%;
     display: inline-block;
+    margin-left: 10px;
 }
 
 .create-post-header {
@@ -185,6 +212,11 @@ li {
 
 .post-header {
     position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: var(--aqua-background-color)
 }
 
 .buttons {
@@ -223,32 +255,45 @@ li {
     margin: 5px 5px 0 0;
 }
 
-.james, .james-name, .james-img {
+.dev, .dev-name, .dev-img {
     display: flex;
     justify-content: center;
 }
 
-.james-about-info {
+.dev-about-info {
     text-align: center;
     font-size: large;
+    padding: 0 20px 0 20px;
 }
 
-.james-about-links > a {
-    color: blue;
-}
-
-.james-about-links > a:hover {
-    color: green;
-    text-decoration: underline;
-}
-
-.james {
-    background-color: rgba(255,255,255,0.6);
-    margin: 50px;
+.dev {
+    background-color: rgba(255,255,255,0.7);
     padding: 10px 0;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 1%;
 }
 
-.james-img > img {
+.dev-img > img {
     width: 30%;
 }
 
+.konnectwith {
+    color: blue;
+    text-decoration: underline;
+}
+
+.timestamp {
+    margin-right: 10px;
+}
+
+.aboutBody {
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 25px;
+    border-radius: 1%;
+}
